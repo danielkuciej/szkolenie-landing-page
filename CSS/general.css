@@ -118,3 +118,11 @@ span {
   height: 3.2rem;
   width: 3.2rem;
 }
+
+.grid-2-cols {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-rows: repeat(3, 1fr);
+}
