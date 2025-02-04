@@ -44,13 +44,6 @@
 /***************/
 .hero-section {
   background-color: #407dda;
-  padding: 4.8rem 0;
-}
-
-.section-box {
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
 }
 
 .hero-description {
@@ -87,4 +80,11 @@
   font-size: 1.8rem;
   color: #ededed;
   /* margin-bottom: 2.4rem; */
+}
+
+/***************/
+/* WHY SECTION */
+/***************/
+.why-section {
+  background-color: #d5d5d5;
 }
