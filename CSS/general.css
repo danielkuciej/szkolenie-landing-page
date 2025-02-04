@@ -59,3 +59,49 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+/*******************************/
+/* GENERAL REUSABLE COMPONENTS */
+/*******************************/
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #ededed;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  color: #e9b738;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+span {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
