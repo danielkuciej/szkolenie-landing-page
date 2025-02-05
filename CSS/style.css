@@ -1,6 +1,10 @@
 /***************/
 /* HEADER */
 /***************/
+header {
+  background-color: #ededed;
+}
+
 .main-nav-links {
   display: flex;
   gap: 3.2rem;
@@ -87,4 +91,22 @@
 /***************/
 .why-section {
   background-color: #d5d5d5;
+}
+
+.perc {
+  font-size: 3rem;
+}
+
+.why-el {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.color {
+  color: #cf711f;
+}
+
+.why-info {
+  font-size: 1.8rem;
 }
