@@ -30,8 +30,10 @@ Darker accent:
   #e67e22
   #cf711f
 - Greys: #EDEDED
-    Darker: #d5d5d5
-
+  Darker:
+  #d5d5d5
+  #ced4da
+  #868e96
 --- 03 SHADOWS
 
 0 2.4rem 4.8rem rgb(0, 0, 0, 0.075);
@@ -99,6 +101,10 @@ span {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* HEADING */
 .heading-primary,
 .heading-secondary,
@@ -128,7 +134,7 @@ span {
   text-transform: uppercase;
 }
 
-/* ACCENT COLORS */
+/* COLORS */
 .dark {
   color: #33334f !important;
 }
@@ -139,6 +145,15 @@ span {
 
 .color {
   color: #cf711f;
+}
+
+.dark-grey {
+  color: #868e96;
+}
+
+.why-section,
+.content-section {
+  background-color: #ededed;
 }
 
 /* ICONS ELEMENT */
