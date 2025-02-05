@@ -70,27 +70,19 @@ header {
   width: 30%;
 }
 
-.list-summary {
+.list {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.point {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-  font-size: 1.8rem;
-  color: #ededed;
-  /* margin-bottom: 2.4rem; */
+  gap: 0.8rem;
 }
 
 /***************/
 /* WHY SECTION */
 /***************/
 .why-section {
-  background-color: #d5d5d5;
+  background-color: #ededed;
 }
 
 .perc {
@@ -101,10 +93,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-}
-
-.color {
-  color: #cf711f;
 }
 
 .why-info {
