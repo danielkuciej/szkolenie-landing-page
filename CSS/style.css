@@ -133,7 +133,7 @@ header {
 .hidden-box {
   grid-column: 2;
   list-style: none;
-  /* display: none; */
+  display: none;
 }
 
 .open {
@@ -143,4 +143,27 @@ header {
 .open .number,
 .open .module {
   color: #cf711f;
+}
+
+/*******************/
+/* FOR WHO SECTION */
+/*******************/
+.icon-big {
+  width: auto;
+  height: 19.2rem;
+}
+
+.who-el {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+.who {
+  font-size: 1.8rem;
+}
+
+.who-desc {
+  font-size: 1.6rem;
 }

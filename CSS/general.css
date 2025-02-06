@@ -90,7 +90,7 @@ span {
 /* GRID ELEMENTS */
 .grid {
   display: grid;
-  gap: 4.8rem;
+  gap: 6.4rem;
 }
 
 .grid-2-cols {
