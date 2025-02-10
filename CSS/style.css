@@ -1,6 +1,6 @@
-/***************/
+/**********/
 /* HEADER */
-/***************/
+/**********/
 header {
   background-color: #ededed;
 }
@@ -43,9 +43,9 @@ header {
   background-color: #cf711f;
 }
 
-/***************/
+/****************/
 /* HERO SECTION */
-/***************/
+/****************/
 .hero-section {
   background-color: #407dda;
 }
@@ -95,9 +95,9 @@ header {
   font-size: 1.8rem;
 }
 
-/***************/
+/*******************/
 /* CONTENT SECTION */
-/***************/
+/*******************/
 .content {
   display: flex;
   flex-direction: column;
@@ -166,4 +166,11 @@ header {
 
 .who-desc {
   font-size: 1.6rem;
+}
+
+/***************/
+/* CTA SECTION */
+/***************/
+.cta-section {
+  background-color: #407dda;
 }
