@@ -207,6 +207,11 @@ header {
   color: #45260a;
 }
 
+.cta .heading-secondary {
+  color: inherit;
+  margin-bottom: 6.4rem;
+}
+
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.5;
