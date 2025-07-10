@@ -75,6 +75,22 @@ header {
   margin-top: 6.4rem;
 }
 
+.why-section {
+  scroll-margin-top: 4.8rem;
+}
+.know-section {
+  scroll-margin-top: 4.8rem;
+}
+.content-section {
+  scroll-margin-top: 4.8rem;
+}
+.who-section {
+  scroll-margin-top: 4.8rem;
+}
+.cta-section {
+  scroll-margin-top: 4.8rem;
+}
+
 /****************/
 /* HERO SECTION */
 /****************/
