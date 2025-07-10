@@ -140,11 +140,15 @@ header {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
   padding: 2.4rem;
 
+  align-items: center;
+  row-gap: 3.2rem;
+}
+
+.content-box-tab {
   display: grid;
   grid-template-columns: auto 1fr auto;
-
-  row-gap: 3.2rem;
-  align-items: center;
+  /* margin-bottom: 2.4rem; */
+  cursor: pointer;
 }
 
 .content-box li:not(:last-child) {
@@ -162,10 +166,24 @@ header {
   color: #ced4da;
 }
 
-.hidden-box {
-  grid-column: 2;
+.hidden-content {
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+
   list-style: none;
-  display: none;
+  padding: 0 4.8rem;
+}
+
+.hidden-content li:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.content-box.open .hidden-content {
+  max-height: 100rem;
+  padding: 2.4rem 4.8rem;
 }
 
 .open {
