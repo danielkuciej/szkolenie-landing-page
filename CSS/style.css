@@ -350,3 +350,44 @@ header {
 .year {
   font-weight: 400;
 }
+
+/*************************/
+/* COOKIE BANNER SECTION */
+/*************************/
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  color: #e4e0e1;
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cookie-banner p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* .cookie-banner a {
+  color: #00aaff;
+  text-decoration: underline;
+} */
+
+.cookie-banner button {
+  background-color: #e67e22;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cookie-banner button:hover {
+  background-color: #cf711f;
+}

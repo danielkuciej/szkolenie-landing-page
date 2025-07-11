@@ -48,3 +48,19 @@ document.addEventListener("DOMContentLoaded", function () {
 const yearEl = document.querySelector(".year");
 const newYear = new Date().getFullYear();
 yearEl.textContent = newYear;
+
+/////////////////////////////
+//Cookies banner
+document.addEventListener("DOMContentLoaded", function () {
+  const cookieBanner = document.getElementById("cookie-banner");
+  const acceptBtn = document.getElementById("accept-cookies");
+
+  if (!localStorage.getItem("cookiesAccepted")) {
+    cookieBanner.style.display = "flex";
+  }
+
+  acceptBtn.addEventListener("click", function () {
+    localStorage.setItem("cookiesAccepted", "true");
+    cookieBanner.style.display = "none";
+  });
+});
