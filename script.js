@@ -29,9 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const contentBoxes = document.querySelectorAll(".content-box");
 
   contentBoxes.forEach((box) => {
-    const tab = box.querySelector(".content-box-tab");
-
-    tab.addEventListener("click", function () {
+    box.addEventListener("click", function () {
       const isAlreadyOpen = box.classList.contains("open");
 
       contentBoxes.forEach((otherBox) => {

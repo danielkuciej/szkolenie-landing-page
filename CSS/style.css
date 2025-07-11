@@ -158,13 +158,13 @@ header {
 
   align-items: center;
   row-gap: 3.2rem;
+  cursor: pointer;
 }
 
 .content-box-tab {
   display: grid;
   grid-template-columns: auto 1fr auto;
   /* margin-bottom: 2.4rem; */
-  cursor: pointer;
 }
 
 .content-box li:not(:last-child) {
