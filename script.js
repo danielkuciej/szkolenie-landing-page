@@ -44,3 +44,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/////////////////////////////
+// Current year
+const yearEl = document.querySelector(".year");
+const newYear = new Date().getFullYear();
+yearEl.textContent = newYear;
