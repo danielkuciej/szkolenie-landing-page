@@ -151,10 +151,16 @@
   .cta-text-box {
     padding: 3.2rem 4.8rem 4.8rem 4.8rem;
   }
+}
 
+/***************/
+/* BELOW 320px */
+/***************/
+@media (max-width: 20em) {
   .btn-form {
     padding: 2.4rem 3.2rem;
     font-size: 1.6rem;
+    text-align: center;
   }
 }
 
