@@ -162,6 +162,7 @@ span {
 .icon {
   height: 3.2rem;
   width: 3.2rem;
+  flex-shrink: 0;
 }
 
 .point {
