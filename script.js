@@ -25,11 +25,10 @@ observe.observe(heroSectionEl);
 /////////////////////////////
 //Mobile navigation
 const btnNavEl = document.querySelector(".btn-mobile-nav");
-const headerEl = document.querySelector(".header");
 const allLinks = document.querySelectorAll("a:link");
 
 btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
+  document.body.classList.toggle("nav-open");
 });
 
 allLinks.forEach(function (link) {
@@ -51,9 +50,12 @@ allLinks.forEach(function (link) {
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
-    // Close mobile naviagtion
-    if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-open");
+    // Close mobile navigation
+    if (link.classList.contains("main-nav-link")) {
+      if (document.body.classList.contains("nav-open")) {
+        document.body.classList.remove("nav-open");
+      }
+    }
   });
 });
 

@@ -106,18 +106,18 @@
     padding: 0.8rem 1.2rem;
   }
 
-  .nav-open .main-nav {
+  body.nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  body.nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  body.nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
