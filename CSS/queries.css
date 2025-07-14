@@ -68,6 +68,10 @@
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 @media (max-width: 44em) {
+  body {
+    overflow-x: hidden;
+  }
+
   .btn-mobile-nav {
     display: block;
     z-index: 1000;
