@@ -47,6 +47,7 @@ header {
   border: none;
   cursor: pointer;
   display: none;
+  background: none;
 }
 
 .icon-mobile-nav {
