@@ -1,7 +1,7 @@
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
-@media (max-width: 75em) {
+@media (max-width: 1200px) {
   html {
     font-size: 56.25%;
   }
@@ -30,7 +30,7 @@
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
-@media (max-width: 59em) {
+@media (max-width: 944px) {
   html {
     font-size: 50%;
   }
@@ -67,7 +67,7 @@
 /**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
-@media (max-width: 44em) {
+@media (max-width: 704px) {
   body {
     overflow-x: hidden;
   }
@@ -142,11 +142,7 @@
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
-@media (max-width: 34em) {
-  body {
-    overflow-x: hidden;
-  }
-
+@media (max-width: 544px) {
   .grid {
     gap: 8rem;
   }
@@ -172,11 +168,7 @@
 /***************/
 /* BELOW 320px */
 /***************/
-@media (max-width: 20em) {
-  body {
-    overflow-x: hidden;
-  }
-
+@media (max-width: 320px) {
   .btn-form {
     padding: 2.4rem 3.2rem;
     font-size: 1.6rem;
