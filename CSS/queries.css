@@ -143,6 +143,10 @@
 /* BELOW 544px (Phones) */
 /**************************/
 @media (max-width: 34em) {
+  body {
+    overflow-x: hidden;
+  }
+
   .grid {
     gap: 8rem;
   }
@@ -169,6 +173,10 @@
 /* BELOW 320px */
 /***************/
 @media (max-width: 20em) {
+  body {
+    overflow-x: hidden;
+  }
+
   .btn-form {
     padding: 2.4rem 3.2rem;
     font-size: 1.6rem;
