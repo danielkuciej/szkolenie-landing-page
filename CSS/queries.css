@@ -68,6 +68,7 @@
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 @media (max-width: 704px) {
+  html,
   body {
     overflow-x: hidden;
   }
